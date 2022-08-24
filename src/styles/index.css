@@ -1,0 +1,68 @@
+
+
+
+.paper {
+    width: 1000px;
+    margin: auto;
+    background: #fff;
+
+      padding: 30px;
+  }
+
+.inputBox{
+    padding: 10px;
+}  
+
+.inputBox > input {
+    font-size: 30px;
+    border: none;
+    width: 100%;
+}
+
+.inputBox > input:focus{
+    border: none;
+    outline: none;
+}
+
+.taskbox{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.task{
+    font-size: 30px;
+}
+
+.taskbox > button {
+    visibility: hidden;
+}
+
+.taskbox:hover{
+    background-color: darkgray;
+}
+
+.taskbox:hover > button{
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    font-size: 30px;
+    text-align: center;
+    background-color: darkgray;
+    border: none;
+}
+
+.emptyTask{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:  gray;
+    font-style: italic;
+}
+.footer{
+    border-top: 2px solid lightgray;
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+}
